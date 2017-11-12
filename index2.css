@@ -1,14 +1,16 @@
 body {
     background-color: lightblue;
+    text-align: center;
 }
 
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Spectral SC', serif;
 }
 
 p {
-    font-family: verdana;
+    font-family: 'Spectral SC', serif;
     font-size: 20px;
 }
 .pomodoro-estimate {
@@ -28,21 +30,30 @@ p {
  padding: 10px;
  border-radius: 3px;
  box-shadow: 2px 2px 1px #90A4AE ;
- display: block;
  background-color: #03A9F4 ;
  margin-top: 10px;
+ font-family: 'Spectral SC', serif;
 }
+
 ul, li, a {
     padding: 15px;
     text-decoration: none;
     list-style-type: none;
     padding-left: 0pt;
+    font-family: 'Spectral SC', serif;
 }
 #add-new-todo-button:active{
  box-shadow: 1px 1px 1px #90A4AE ;
 }
-  /* body {
-    background-image: url(http://www.powerpointhintergrund.com/uploads/2017/06/--beautiful-wallpaper-backgrounds-and-background-hd-wallpaper-31.jpeg);
+ body {
+    background-image: url(https://wallpaperscraft.com/image/spots_background_light_solid_color_69091_2560x1600.jpg);
     background-size: cover; 
     background-position: top right;
-    background-repeat: no-repeat;} */
+    background-repeat: no-repeat;} 
+li:hover{
+  background-color: #E1F5FE;
+  border-radius: 3px;
+}
+.completed-todo{
+  text-decoration: line-through;
+}

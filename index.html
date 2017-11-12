@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
         <title> To-Do-List </title> 
-    <link rel="stylesheet" href="index2.css" type="text/css"/>
+        <link rel="stylesheet" href="index2.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
     </head>
     <body>
         <h1>
@@ -18,28 +21,29 @@
                 </li>
                 <li>
                     <input type="checkbox">
-                    Buy workshop supplies
+                    <a href="show.html">Buy workshop supplies</a>
                     <span class="pomodoro-estimate">3 pomodoros</span>
                 </li>
                 <li>
                     <input type="checkbox">
-                    Pay the utility fee
+                    <a href="show.html">Pay the utility fee</a>
                     <span class="pomodoro-estimate">2 pomodoros</span>
                 </li>
                 <li>
                     <input type="checkbox">
-                    Get dentist appointment
+                    <a href="show.html">Get dentist appointment</a>
                     <span class="pomodoro-estimate">1 pomodoro</span>
                 </li>
                 <li>
                     <input type="checkbox">
-                    Review english essay
+                    <a href="show.html">Review english essay</a>
                     <span class="pomodoro-estimate">4 pomodoros</span>
                 </li>
             </ol>
         </h2>
         <input type="text">
         <input type="number">
-        <input id="add-new-todo-button" type="submit" value="Add todo"
+        <br>
+        <input id="add-new-todo-button" align="center" type="submit" value="Add todo">
     </body>
 </html>

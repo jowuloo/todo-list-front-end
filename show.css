@@ -4,3 +4,45 @@ h2{
  font-size: 32px;
  margin: 20px 0px;
 }
+.simple-link{
+  display: block;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #9E9E9E;
+}
+.simple-link:active{
+  color: #212121;
+}
+#edit-todo-button{
+  display: inline-block;
+  width: 40px;
+  background-color: #1ABC9C;
+  margin-right: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #90A4AE;
+}
+#edit-todo-button:active{
+  box-shadow: 1px 1px 1px #90A4AE;
+}
+#delete-todo-button{
+  display: inline-block;
+  width: 60px;
+  background-color: #F44336;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #90A4AE;
+}
+#delete-todo-button:active{
+  box-shadow: 1px 1px 1px #90A4AE;
+}
