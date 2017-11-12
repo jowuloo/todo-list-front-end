@@ -32,3 +32,9 @@ p {
  background-color: #03A9F4 ;
  margin-top: 10px;
 }
+li {
+    padding: 15px;
+}
+#add-new-todo-button:active{
+ box-shadow: 1px 1px 1px #90A4AE ;
+}
