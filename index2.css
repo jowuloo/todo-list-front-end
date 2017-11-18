@@ -45,7 +45,7 @@ ul, li, a {
 #add-new-todo-button:active{
  box-shadow: 1px 1px 1px #90A4AE ;
 }
- body {
+body {
     background-image: url(https://wallpaperscraft.com/image/spots_background_light_solid_color_69091_2560x1600.jpg);
     background-size: cover; 
     background-position: top right;
